@@ -1,8 +1,21 @@
 <?php
+
+	/**
+	 * send_mail.php 
+	 *
+	 * @package    PackageName
+	 * @author     Mohanad Kaleia <ms.kaleia@gmail.com>
+	 * @license    MIT
+	 * @version    1.0
+	 * @link       https://github.com/mycodee/socket-checker
+	 * @since      1/24/2016
+	 */
+
+
 require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 require 'config.php';
 $mail = new PHPMailer;
-    
+
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = $SMTPHost;  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication

@@ -1,3 +1,15 @@
+/**
+ * Checker.js 
+ *
+ * @package    Socket-checker
+ * @author     Mohanad Kaleia <ms.kaleia@gmail.com>
+ * @license    MIT
+ * @version    1.0
+ * @link       https://github.com/mycodee/socket-checker
+ * @since      1/24/2016
+ */
+
+
 // Server information
 var ws_server = "127.0.0.1";
 var port = "9001";
