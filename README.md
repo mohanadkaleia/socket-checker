@@ -7,4 +7,8 @@ Websocket checker - a simple script that runs from **command line**, it will kee
 
 How it is working
 -------------
-Mainly it is working using phantom.js to connect to websocket server, and phpmailer to send emails notifications, to make it work you should setup server information and email address in config.php file.
+Mainly it= is working using phantom.js to connect to websocket server, and phpmailer to send emails notifications, to make it work you should setup **server** information and email address in **config.php** file.
+
+License
+-------------
+This software is distributed under the MIT license. Please read LICENSE for information on the software availability and distribution.
